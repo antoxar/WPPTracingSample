@@ -1,0 +1,38 @@
+// PDB:  ..\Release\CppWindowsService.pdb
+// PDB:  Last Updated :2014-10-10:12:12:25:166 (UTC) [tracepdb]
+5ed21a20-2754-8ca0-11c6-9b60845d5180 CppWindowsService // SRC=1.cpp MJ= MN=
+#typev 1_cpp401 17 "%0Service failed to resume." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FLAG_INIT FUNC=1::Continue
+{
+}
+#typev 1_cpp393 16 "%0Service Continue %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FLAG_INIT FUNC=1::Continue
+{
+dwError, ItemHRESULT -- 10
+}
+#typev 1_cpp348 15 "%0Service failed to pause." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FLAG_INIT FUNC=1::Pause
+{
+}
+#typev 1_cpp340 14 "%0Service Pause %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FLAG_INIT FUNC=1::Pause
+{
+dwError, ItemHRESULT -- 10
+}
+#typev 1_cpp447 19 "%0Service failed to shut down." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FLAG_INIT FUNC=1::Shutdown
+{
+}
+#typev 1_cpp442 18 "%0Service Shutdown %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FLAG_INIT FUNC=1::Shutdown
+{
+dwError, ItemHRESULT -- 10
+}
+#typev 1_cpp233 11 "%0Service failed to start." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FLAG_INIT FUNC=1::Start
+{
+}
+#typev 1_cpp225 10 "%0Service Start %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FLAG_INIT FUNC=1::Start
+{
+dwError, ItemHRESULT -- 10
+}
+#typev 1_cpp293 13 "%0Service failed to stop." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FLAG_INIT FUNC=1::Stop
+{
+}
+#typev 1_cpp285 12 "%0Service Stop %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FLAG_INIT FUNC=1::Stop
+{
+dwError, ItemHRESULT -- 10
+}

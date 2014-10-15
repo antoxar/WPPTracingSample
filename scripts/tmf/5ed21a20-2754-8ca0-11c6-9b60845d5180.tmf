@@ -1,0 +1,38 @@
+// PDB:  ..\Release\CppWindowsService.pdb
+// PDB:  Last Updated :2014-10-10:12:12:25:166 (UTC) [tracepdb]
+5ed21a20-2754-8ca0-11c6-9b60845d5180 CppWindowsService // SRC=ServiceBase.cpp MJ= MN=
+#typev servicebase_cpp401 17 "%0Service failed to resume." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FLAG_INIT FUNC=CServiceBase::Continue
+{
+}
+#typev servicebase_cpp393 16 "%0Service Continue %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FLAG_INIT FUNC=CServiceBase::Continue
+{
+dwError, ItemHRESULT -- 10
+}
+#typev servicebase_cpp348 15 "%0Service failed to pause." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FLAG_INIT FUNC=CServiceBase::Pause
+{
+}
+#typev servicebase_cpp340 14 "%0Service Pause %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FLAG_INIT FUNC=CServiceBase::Pause
+{
+dwError, ItemHRESULT -- 10
+}
+#typev servicebase_cpp447 19 "%0Service failed to shut down." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FLAG_INIT FUNC=CServiceBase::Shutdown
+{
+}
+#typev servicebase_cpp442 18 "%0Service Shutdown %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FLAG_INIT FUNC=CServiceBase::Shutdown
+{
+dwError, ItemHRESULT -- 10
+}
+#typev servicebase_cpp233 11 "%0Service failed to start." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FLAG_INIT FUNC=CServiceBase::Start
+{
+}
+#typev servicebase_cpp225 10 "%0Service Start %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FLAG_INIT FUNC=CServiceBase::Start
+{
+dwError, ItemHRESULT -- 10
+}
+#typev servicebase_cpp293 13 "%0Service failed to stop." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FLAG_INIT FUNC=CServiceBase::Stop
+{
+}
+#typev servicebase_cpp285 12 "%0Service Stop %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FLAG_INIT FUNC=CServiceBase::Stop
+{
+dwError, ItemHRESULT -- 10
+}

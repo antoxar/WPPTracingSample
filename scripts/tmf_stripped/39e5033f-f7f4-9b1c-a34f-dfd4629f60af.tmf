@@ -1,0 +1,14 @@
+// PDB:  ..\Release\CppWindowsService.pdb
+// PDB:  Last Updated :2014-10-10:12:12:25:166 (UTC) [tracepdb]
+39e5033f-f7f4-9b1c-a34f-dfd4629f60af CppWindowsService // SRC=2.cpp MJ= MN=
+#typev 2_cpp88 10 "%0CppWindowsService in OnStart" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FLAG_INIT FUNC=2::OnStart
+{
+}
+#typev 2_cpp140 12 "%0CppWindowsService in OnStop" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FLAG_INIT FUNC=2::OnStop
+{
+}
+#typev 2_cpp117 11 "%0Test Fromat String %10!s! %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FLAG_INIT FUNC=2::ServiceWorkerThread
+{
+timestamp, ItemTimeDelta -- 10
+&testGUID, ItemGuid -- 11
+}

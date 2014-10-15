@@ -1,0 +1,6 @@
+http://code.msdn.microsoft.com/windowsapps/CppWindowsService-cacf4948
+http://devproconnections.com/visual-studio-2010/wpp-tracing-visual-c-2010-projects
+
+
+
+tracepdb.exe -f ..\Release\CppWindowsService.pdb

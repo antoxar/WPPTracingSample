@@ -1,0 +1,47 @@
+// PDB:  ..\Release\CppWindowsService.pdb
+// PDB:  Last Updated :2014-10-10:12:12:25:166 (UTC) [tracepdb]
+f12c6660-fe31-901a-a2e4-64383117b533 CppWindowsService // SRC=3.cpp MJ= MN=
+#typev 3_cpp99 13 "%0%10!s! is installed." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FLAG_SERVICE FUNC=InstallService
+{
+pszServiceName, ItemWString -- 10
+}
+#typev 3_cpp95 12 "%0CreateService failed w/err  %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FLAG_SERVICE FUNC=InstallService
+{
+GetLastError(), ItemHRESULT -- 10
+}
+#typev 3_cpp73 11 "%0OpenSCManager failed w / err %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FLAG_SERVICE FUNC=InstallService
+{
+GetLastError(), ItemHRESULT -- 10
+}
+#typev 3_cpp64 10 "%0GetModuleFileName failed w/err %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FLAG_SERVICE FUNC=InstallService
+{
+GetLastError(), ItemHRESULT -- 10
+}
+#typev 3_cpp183 20 "%0%10!s! is removed" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FLAG_SERVICE FUNC=UninstallService
+{
+pszServiceName, ItemWString -- 10
+}
+#typev 3_cpp179 19 "%0DeleteService failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FLAG_SERVICE FUNC=UninstallService
+{
+GetLastError(), ItemHRESULT -- 10
+}
+#typev 3_cpp172 18 "%0%10!s! failed to stop" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FLAG_SERVICE FUNC=UninstallService
+{
+pszServiceName, ItemWString -- 10
+}
+#typev 3_cpp168 17 "%0%10!s! is stopped" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FLAG_SERVICE FUNC=UninstallService
+{
+pszServiceName, ItemWString -- 10
+}
+#typev 3_cpp154 16 "%0Stopping %10!s!." //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FLAG_SERVICE FUNC=UninstallService
+{
+pszServiceName, ItemWString -- 10
+}
+#typev 3_cpp147 15 "%0OpenService failed w/err %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FLAG_SERVICE FUNC=UninstallService
+{
+GetLastError(), ItemHRESULT -- 10
+}
+#typev 3_cpp138 14 "%0OpenSCManager failed w/err %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FLAG_SERVICE FUNC=UninstallService
+{
+GetLastError(), ItemHRESULT -- 10
+}

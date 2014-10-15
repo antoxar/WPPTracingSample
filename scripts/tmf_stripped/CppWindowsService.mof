@@ -1,0 +1,68 @@
+#pragma autorecover
+#pragma classflags("forceupdate")
+#pragma namespace("\\\\.\\root\\WMI")
+//
+// WPP Generated File
+// PDB:  ..\Release\CppWindowsService.pdb
+// PDB:  Last Updated :2014-10-10:12:12:25:166 (UTC) [tracepdb]
+//
+
+//ModuleName = CppWindowsServiceSimpleServiceProvider	 (Init called in Function wmain)
+[Dynamic,
+ Description("CppWindowsService_SimpleServiceProvider"),
+ guid("{c34f5c45-3569-896c-ba85-bf8dcc85aa62}"),
+ locale("MS\\0x409")]
+class CppWindowsServiceSimpleServiceProvider : EventTrace
+{
+    [Description ("Enable Flags") : amended,
+        ValueDescriptions{
+             "FLAG_INIT Flag",
+             "FLAG_TEST Flag",
+             "FLAG_OTHER Flag",
+             "FLAG_SERVICE Flag"},
+        DefineValues{
+             "FLAG_INIT",
+             "FLAG_TEST",
+             "FLAG_OTHER",
+             "FLAG_SERVICE"},
+        Values{
+             "FLAG_INIT",
+             "FLAG_TEST",
+             "FLAG_OTHER",
+             "FLAG_SERVICE"},
+        ValueMap{
+             "0x00000001",
+             "0x00000002",
+             "0x00000004",
+             "0x00000008"}: amended
+    ]
+    uint32 Flags;
+    [Description ("Levels") : amended,
+        ValueDescriptions{
+            "Abnormal exit or termination",
+            "Severe errors that need logging",
+            "Warnings such as allocation failure",
+            "Includes non-error cases",
+            "Detailed traces from intermediate steps" } : amended,
+         DefineValues{
+            "TRACE_LEVEL_FATAL",
+            "TRACE_LEVEL_ERROR",
+            "TRACE_LEVEL_WARNING"
+            "TRACE_LEVEL_INFORMATION",
+            "TRACE_LEVEL_VERBOSE" },
+        Values{
+            "Fatal",
+            "Error",
+            "Warning",
+            "Information",
+            "Verbose" },
+        ValueMap{
+            "0x1",
+            "0x2",
+            "0x3",
+            "0x4",
+            "0x5" },
+        ValueType("index")
+    ]
+    uint32 Level;
+};
